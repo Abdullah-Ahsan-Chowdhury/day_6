@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", serif;
+    box-sizing: border-box;
+}
+.container {
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%);
+    box-shadow: 3px 3px 10px 8px #cccccc75, -3px -3px 10px 8px #cccccc75;
+}
+.container .price_tag span{
+    background: #6E2594;
+    color: #fff;
+    font-size: 12px;
+    padding: 3px 10px;
+    border-radius: 0px 20px 20px 0;
+    display: inline-block;
+    position: absolute;
+    top: 12px;
+}
+.container .image {
+    width: 100%;
+}
+.container .image img {
+    width: 100%;
+}
+.container .details {
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.container .details h4 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 15px 0;
+}
+.container .details h4:hover {
+    color: #ef4a23;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.container .details .short_details ul{
+    margin: 0;
+    padding: 10px 0 10px 16px;
+    border-bottom: 1px solid #cccccc4f;
+    border-top: 1px solid #cccccc4f;
+}
+.container .details .short_details ul li {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+    font-weight: 400;
+}
+.container .details .price_new {
+    margin: 10px 0;
+    text-align: center;
+}
+.container .details .price_new span{
+    padding: 0 5px;
+    text-align: center;
+}
+.container .details .price_new #new{
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    color: #d51e0b;
+}
+.container .details .price_new #old{
+    font-size: 12px;
+    font-weight: 600;
+    color: #736b6b;
+    text-decoration: line-through;
+}
+.container .details .actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container .details .actions button {
+    margin: 5px 0;
+    padding: 10px 0;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+.container .details .actions button i {
+    font-size: 16px;
+}
+.container .details .actions .cart_btn {
+    color: #3749bb;
+    background: rgba(55, 73, 187, 0.066);
+}
+.container .details .actions .cart_btn:hover {
+    background: #3749BB;
+    color: white;
+}
+.container .details .actions .compare_btn {
+    color: #666;
+    background: #fff;
+}
+.container .details .actions .compare_btn:hover {
+    color: #111;
+    background:#e0e2e4;
+}
